@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AplicativoSustentavel</string>
+    <string name="haiky_henta">Haiky Henta</string>
+    <string name="circulo_preto">Circulo preto</string>
+    <string name="Voleyballicon">volleyball icon</string>
+    <string name="nome">NOME</string>
+    <string name="Tobio">Tobio Kageyama</string>
+    <string name="KiyokoShimizu">Personagem</string>
+    <string name="TobioKageyama">Personagem</string>
+    <string name="Volleyballicon">Volleyball icon</string>
+    <string name="Aviso">Escolha seu personagem!</string>
+    <string name="materiais">Materiais</string>
+    <string name="metas">Metas</string>
+    <string name="imagemobjetivos">Objetivos</string>
+    <string name="objetivos">Objetivos</string>
+    <string name="iniciar">INICIAR</string>
+</resources>
