@@ -15,4 +15,7 @@
     <string name="objetivos">Objetivos</string>
     <string name="iniciar">INICIAR</string>
     <string name="Personagem">Personagem</string>
+    <string name="balaoflutuante">Que tal escolher os materiais a cima? Lembre-se de escolher os que não ferem o meio ambiente!</string>
+    <string name="balao">balao</string>
+    <string name="proximo">Próximo</string>
 </resources>

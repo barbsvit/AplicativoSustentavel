@@ -32,10 +32,10 @@
         android:contentDescription="@string/circulo_preto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintHorizontal_bias="0.127"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_bias="0.236"
         app:srcCompat="@drawable/circulo_preto_1" />
 
     <ImageView
@@ -45,16 +45,17 @@
         android:contentDescription="@string/circulo_preto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.622"
+        app:layout_constraintVertical_bias="0.718"
         app:srcCompat="@drawable/circulo_preto_1" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="95dp"
-        android:layout_height="94dp"
+        android:layout_width="74dp"
+        android:layout_height="73dp"
+        android:contentDescription="@string/Voleyballicon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,7 +63,6 @@
         app:layout_constraintVertical_bias="0.058"
         app:srcCompat="@drawable/volleyball_ball_icon_png"
         app:tint="#000000"
-        tools:ignore="MissingConstraints"
-        android:contentDescription="@string/Voleyballicon" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

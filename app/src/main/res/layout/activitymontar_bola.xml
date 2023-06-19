@@ -19,15 +19,51 @@
         app:srcCompat="@drawable/whatsapp_image_2023_06_16_at_11_54_37__4_"
         tools:ignore="MissingConstraints" />
 
-    <LinearLayout
-        android:layout_width="427dp"
-        android:layout_height="285dp"
-        android:orientation="horizontal"
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="180dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/balaoflutuante"
+        android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529"
+        tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="245dp"
+        android:layout_height="294dp"
+        android:contentDescription="@string/balao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562"
+        app:srcCompat="@drawable/bal_o_de_conversa"
+        tools:ignore="MissingConstraints" />
+
+    <HorizontalScrollView
+        android:layout_width="391dp"
+        android:layout_height="283dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:ignore="UselessLeaf"></LinearLayout>
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf" />
+    </HorizontalScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

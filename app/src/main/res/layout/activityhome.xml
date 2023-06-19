@@ -80,4 +80,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.191" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="142dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#FF5900"
+        android:fontFamily="@font/bangers"
+        android:text="@string/proximo"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
