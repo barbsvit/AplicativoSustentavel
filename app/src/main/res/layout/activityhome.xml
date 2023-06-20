@@ -58,8 +58,8 @@
         android:ems="10"
         android:fontFamily="@font/bangers"
         android:gravity="center_horizontal"
+        android:hint="@string/nome"
         android:inputType="text"
-        android:text="@string/nome"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -97,6 +97,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.901" />
+        app:layout_constraintVertical_bias="0.925" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
