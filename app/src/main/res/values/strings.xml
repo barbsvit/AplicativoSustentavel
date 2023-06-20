@@ -18,4 +18,8 @@
     <string name="balaoflutuante">Que tal escolher os materiais a cima? Lembre-se de escolher os que não ferem o meio ambiente!</string>
     <string name="balao">balao</string>
     <string name="proximo">Próximo</string>
+    <string name="par_bens_continue_protegendo_o_meio_ambiente">Parábens! Continue protegendo o meio ambiente!</string>
+    <string name="retangulolaranja">retangulolaranja</string>
+    <string name="voltar_ao_in_cio">Voltar ao início</string>
+    <string name="bola1">bola de volei 1\n</string>
 </resources>

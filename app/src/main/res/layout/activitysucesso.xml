@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        tools:ignore="MissingConstraints"
+        android:layout_width="74dp"
+        android:layout_height="73dp"
+        android:contentDescription="@string/Voleyballicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058"
+        app:srcCompat="@drawable/volleyball_ball_icon_png"
+        app:tint="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="526dp"
+        android:layout_height="498dp"
+        android:contentDescription="@string/retangulolaranja"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476"
+        app:srcCompat="@drawable/retangulolaranja"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="390dp"
+        android:layout_height="95dp"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="@string/par_bens_continue_protegendo_o_meio_ambiente"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#FF5900"
+        android:fontFamily="@font/bangers"
+        android:text="@string/voltar_ao_in_cio"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bola2_removebg_preview"
+        android:contentDescription="@string/bola1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
