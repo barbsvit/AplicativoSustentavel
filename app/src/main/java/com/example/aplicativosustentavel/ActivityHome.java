@@ -1,41 +1,41 @@
 package com.example.aplicativosustentavel;
 
-import static com.example.aplicativosustentavel.R.id.KiyokoShimizu;
-import static com.example.aplicativosustentavel.R.id.TobioKageyama;
-
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.concurrent.atomic.AtomicBoolean;
+
 public class ActivityHome extends AppCompatActivity {
-
-    private View view;
-
+    Button btnproximo;
+    ImageButton imgbtnshimizu;
+    ImageButton imgbtnkageyama;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activityhome);
-    }
-    public void onImageButtonClicked(View view) {
-        // Is the button now checked?
-        boolean checked;
-        checked = ((ImageButton) view).isShown();
 
-        // Check which radio button was clicked
-        switch (view.getId()) {
-            case R.id.KiyokoShimizu:
-                if (checked)
-                    // Pirates are the best
-                    break;
-            case R.id.TobioKageyama:
-                if (checked)
-                    // Ninjas rule
-                    break;
+        if (R.id.imgbtnkageyama == 0) {
+            int b = R.id.imgbtnshimizu;
+        } else {
+            int b = R.id.imgbtnkageyama;
         }
+
+        btnproximo= (Button) findViewById(R.id.btnproximo);
+
+
+        btnproximo.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent Proximo= new Intent (ActivityHome.this, ActivityComeco.class);
+                startActivity(Proximo);
+            }
+        });
     }
 }
 

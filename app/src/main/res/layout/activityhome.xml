@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/volleyball_ball_icon_png" />
 
     <ImageButton
-        android:id="@+id/TobioKageyama"
+        android:id="@+id/imgbtnkageyama"
         android:layout_width="120dp"
         android:layout_height="269dp"
         android:contentDescription="@string/TobioKageyama"
@@ -34,7 +34,7 @@
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <ImageButton
-        android:id="@+id/KiyokoShimizu"
+        android:id="@+id/imgbtnshimizu"
         android:layout_width="122dp"
         android:layout_height="266dp"
         android:contentDescription="@string/KiyokoShimizu"
@@ -85,7 +85,7 @@
         app:layout_constraintVertical_bias="0.191" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnproximo"
         android:layout_width="142dp"
         android:layout_height="84dp"
         android:backgroundTint="#FF5900"
