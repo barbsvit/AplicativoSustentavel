@@ -21,6 +21,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivityHome"
+            android:exported="false"
+            />
+        <activity android:name=".ActivityComeco"
+            android:exported="false"
+            />
+        <activity android:name=".ActivityMontar_Bola"
+            android:exported="false"
+            />
+        <activity android:name=".ActivitySucesso"
+            android:exported="false"
+            />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

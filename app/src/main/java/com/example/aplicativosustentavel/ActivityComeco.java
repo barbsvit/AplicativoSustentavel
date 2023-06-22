@@ -15,10 +15,10 @@ public class ActivityComeco extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitycomeco);
 
-        btniniciar=(Button) findViewById(R.id.btniniciar);
+        btniniciar= findViewById(R.id.btniniciar);
 
         btniniciar.setOnClickListener(v -> {
-            Intent Iniciar= new Intent(ActivityComeco.this, ActivityMontar_Bola.class);
+            Intent Iniciar= new Intent (ActivityComeco.this, ActivityMontar_Bola.class);
             startActivity(Iniciar);
         });
     }

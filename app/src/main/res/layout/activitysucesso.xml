@@ -51,7 +51,7 @@
         tools:ignore="TextSizeCheck" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnvoltar"
         android:layout_width="208dp"
         android:layout_height="75dp"
         android:backgroundTint="#FF5900"

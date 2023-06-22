@@ -6,6 +6,21 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="74dp"
+        android:layout_height="73dp"
+        android:contentDescription="@string/Voleyballicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/volleyball_ball_icon_png"
+        app:tint="#000000"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="217dp"
         android:layout_height="302dp"
@@ -21,49 +36,109 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="180dp"
-        android:layout_height="99dp"
+        android:layout_width="168dp"
+        android:layout_height="125dp"
         android:fontFamily="@font/bangers"
+        android:gravity="center"
         android:text="@string/balaoflutuante"
-        android:textSize="17sp"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintHorizontal_bias="0.847"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.594"
         tools:ignore="TextSizeCheck,VisualLintOverlap" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="245dp"
-        android:layout_height="294dp"
+        android:layout_width="240dp"
+        android:layout_height="283dp"
         android:contentDescription="@string/balao"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintHorizontal_bias="0.976"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562"
+        app:layout_constraintVertical_bias="0.648"
         app:srcCompat="@drawable/bal_o_de_conversa"
         tools:ignore="MissingConstraints" />
 
-    <HorizontalScrollView
-        android:layout_width="413dp"
-        android:layout_height="288dp"
+    <CheckBox
+        android:id="@+id/chb1"
+        android:layout_width="182dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/tinta_leo"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="SpeakableTextPresentCheck">
+        app:layout_constraintVertical_bias="0.196"
+        tools:ignore="TextSizeCheck" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            tools:ignore="UselessLeaf" />
-    </HorizontalScrollView>
+    <CheckBox
+        android:id="@+id/chb4"
+        android:layout_width="186dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/l_tex_borracha"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chb2"
+        android:layout_width="182dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/papel"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"
+        tools:ignore="TextSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/chb3"
+        android:layout_width="178dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/fibra_de_carbono"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btnmontar"
+        android:layout_width="136dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#FF5900"
+        android:fontFamily="@font/bangers"
+        android:text="@string/montar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,4 +23,9 @@
     <string name="voltar_ao_in_cio">Voltar ao início</string>
     <string name="bola1">bola de volei 1\n</string>
     <string name="jogar">Jogar</string>
+    <string name="tinta_leo">Tinta óleo</string>
+    <string name="l_tex_borracha">Látex/Borracha</string>
+    <string name="papel">Papel</string>
+    <string name="fibra_de_carbono">Fibra de carbono</string>
+    <string name="montar">Montar…</string>
 </resources>

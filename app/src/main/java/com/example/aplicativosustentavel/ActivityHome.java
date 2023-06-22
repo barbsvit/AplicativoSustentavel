@@ -19,12 +19,6 @@ public class ActivityHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activityhome);
 
-        if (R.id.imgbtnkageyama == 0) {
-            int b = R.id.imgbtnshimizu;
-        } else {
-            int b = R.id.imgbtnkageyama;
-        }
-
         btnproximo= (Button) findViewById(R.id.btnproximo);
 
 
