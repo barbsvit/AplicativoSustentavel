@@ -8,17 +8,18 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivityComeco extends AppCompatActivity {
-    Button btniniciar;
+    Button btncomeca;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitycomeco);
 
-        btniniciar= findViewById(R.id.btniniciar);
+        btncomeca= findViewById(R.id.btncomeca);
 
-        btniniciar.setOnClickListener(v -> {
-            Intent Iniciar= new Intent (ActivityComeco.this, ActivityMontar_Bola.class);
+        btncomeca.setOnClickListener(v -> {
+            Intent Iniciar= new Intent (ActivityComeco.this,
+                    ActivityMontar.class);
             startActivity(Iniciar);
         });
     }

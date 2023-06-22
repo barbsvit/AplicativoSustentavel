@@ -75,7 +75,7 @@
         tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
 
     <Button
-        android:id="@+id/btniniciar"
+        android:id="@+id/btncomeca"
         android:layout_width="198dp"
         android:layout_height="84dp"
         android:backgroundTint="#FF5900"

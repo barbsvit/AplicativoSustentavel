@@ -27,9 +27,7 @@
         <activity android:name=".ActivityComeco"
             android:exported="false"
             />
-        <activity android:name=".ActivityMontar_Bola"
-            android:exported="false"
-            />
+        <activity android:name=".ActivityMontar"/>
         <activity android:name=".ActivitySucesso"
             android:exported="false"
             />

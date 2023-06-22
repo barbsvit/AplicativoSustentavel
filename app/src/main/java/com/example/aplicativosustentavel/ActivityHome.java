@@ -12,8 +12,6 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 public class ActivityHome extends AppCompatActivity {
     Button btnproximo;
-    ImageButton imgbtnshimizu;
-    ImageButton imgbtnkageyama;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
