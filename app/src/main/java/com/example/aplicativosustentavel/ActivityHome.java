@@ -31,6 +31,8 @@ public class ActivityHome extends AppCompatActivity {
             }
         });
     }
+    final ImageButton Imgbtnshimizu = (ImageButton) findViewById(R.id.imgbtnshimizu); //instanciando imagebuttons no java
+    final ImageButton Imgbtnkageyama = (ImageButton) findViewById(R.id.imgbtnkageyama);
 }
 
 
